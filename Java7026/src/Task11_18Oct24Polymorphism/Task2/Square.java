@@ -7,7 +7,7 @@ public class Square extends Shape {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the side of square: ");
 		int side = sc.nextInt();
-		sc.close();
+//		sc.close();
 		int area = side*side;
 		System.out.println("Area of square is: "+area);
 	}

@@ -7,7 +7,7 @@ public class Rectangle {
 		int length = sc.nextInt();
 		System.out.println("Enter the breadth: ");
 		int breadth = sc.nextInt();
-		sc.close();
+//		sc.close();
 		int area = length * breadth;
 		System.out.println("Area of the rectangle is: "+area);
 	}

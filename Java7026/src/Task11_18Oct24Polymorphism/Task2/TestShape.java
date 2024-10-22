@@ -11,10 +11,10 @@ public class TestShape {
 		
 //This objects work individually
 //If I comment any two and run one
-//		Square s = new Square();
-//		s.calculateArea();
+		Square s = new Square();
+		s.calculateArea();
 
-//		Rectangle r = new Rectangle();
-//		r.calculateArea();
+		Rectangle r = new Rectangle();
+		r.calculateArea();
 	}
 }

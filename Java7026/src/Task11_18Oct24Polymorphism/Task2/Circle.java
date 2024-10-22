@@ -7,7 +7,7 @@ public class Circle extends Shape{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the radius: ");
 		float radius = sc.nextFloat();
-		sc.close();
+//		sc.close();
 		double area = Math.PI*radius*radius;
 		System.out.println("Area of circle is: "+area);
 	}	
